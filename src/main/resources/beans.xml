@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+	"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+	<bean id="merchNos" class="java.util.ArrayList">
+		<constructor-arg>
+			<list>
+				<value>30130</value>
+				<value>30140</value>
+				<value>30150</value>
+				<value>30070</value>
+				<value>30310</value>
+				<value>30360</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<bean id="student" class="com.zhangqi.javaee.BeanXml.Student">
+		<property name="name" value="hello"></property>
+		<property name="pwd" value="123400000"></property>
+		<property name="age" value="11"></property>
+	</bean>
+
+<!--注意下面的bean的class和上面的不同-->
+	<bean id="stu" class="com.zhangqi.javaee.Annotaion.BeanXml.Student">
+		<property name="name" value="zhangqi"></property>
+		<property name="pwd" value="112"></property>
+		<property name="age" value="999"></property>
+	</bean>
+
+
+</beans>
