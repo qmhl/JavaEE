@@ -11,10 +11,13 @@ lllllll
 mmmmmm
 i am back!
 you are expected!
+<<<<<<< HEAD
 remote add js!
 local add function!
 remote add 特色！
 local add function!
 local add feature!
 我是一个兵！
+我很优秀！
+
 
