@@ -12,5 +12,7 @@ mmmmmm
 i am back!
 you are expected!
 remote add js!
+local add function!
+
 
 
