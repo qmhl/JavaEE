@@ -26,4 +26,5 @@ local add feature!
 镇江香醋！
 远程测试1
 majiangyou
+远程测试2
 
