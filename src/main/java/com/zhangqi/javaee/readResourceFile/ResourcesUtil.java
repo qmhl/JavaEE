@@ -103,6 +103,7 @@ public class ResourcesUtil {
 
     //main方法测试读取
     public static void main(String[] args) {
+        //  实例化
         ResourcesUtil resourcesUtil = new ResourcesUtil("application.properties");
         String userName = resourcesUtil.getValue("userName");
         System.out.println(userName);
