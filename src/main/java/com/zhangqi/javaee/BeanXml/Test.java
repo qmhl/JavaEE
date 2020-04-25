@@ -62,4 +62,22 @@ public class Test {
         map.put("data", stuServiceImpl.getInfo());
         return map;
     }
+
+
+    @RequestMapping(value = {"/exception"}, method = {RequestMethod.GET, RequestMethod.POST})
+    @ResponseBody
+    public Object getList1() {
+        try {
+            int i =1/0;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "有异常";
+        }
+//
+//        StuServiceImpl stuService = new StuServiceImpl();
+        HashMap<String, Object> map = new HashMap<String, Object>();
+        map.put("status", "000000");
+        map.put("data", "没有异常");
+        return map;
+    }
 }

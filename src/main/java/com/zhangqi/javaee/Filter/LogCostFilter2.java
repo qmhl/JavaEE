@@ -25,6 +25,7 @@ public class LogCostFilter2 implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         String method = request.getMethod();
         System.out.println("获取到的方法名是"+method);
+        filterChain.doFilter(servletRequest, servletResponse);
     }
 
     @Override
